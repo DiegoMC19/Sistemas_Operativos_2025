@@ -1,0 +1,43 @@
+
+/***************************************************
+*          Pontificia Universidad Javeriana        *
+****************************************************
+* Autor: Diego Mendoza                             *
+* Fecha: 21 de agosto 2025                         *
+* Docente: J. Corredor                             *
+***************************************************/
+
+#include <stdio.h>   // Librería estándar de entrada y salida 
+#include <stdlib.h>  // Librería para malloc y exit
+#include <string.h>  // Librería para strlen y strcpy
+
+int main() {
+    char *q = NULL;  // Se declara un puntero a char inicializado en NULL
+
+    //Mensaje diciendo que se va a pedir memoria
+    printf("Requesting space for \"Goodbye\" \n");
+
+    //Reserva memoria dinámica suficiente para guardar la cadena "Goodbye"
+    //Con strlen sacamos el tamaño de la cadena y  se suma 1 para el carácter nulo
+    q = (char *)malloc(strlen("Goodbye") + 1);
+
+    //Se verifica si malloc devolvió NULL osea si falló en la reserva de memoria
+    if (!q) {
+        perror("Failed to allocate space because"); // Imprime la causa del error
+        exit(1); // Termina el programa por el error
+    }
+
+    //Mensaje avisando que se va a copiar la cadena a "q"
+    printf("About to copy \"Goodbye\" to q at address %s \n", q);
+
+    //Copia  la cadena "Goodbye" dentro del espacio reservado en q
+    strcpy(q, "Goodbye");
+
+    //Confirmación de que la copia fue exitosa
+    printf("String copied\n");
+
+    //Muestra el contenido de q
+    printf("%s \n", q);
+
+    return 0; //Fin del programa
+}
