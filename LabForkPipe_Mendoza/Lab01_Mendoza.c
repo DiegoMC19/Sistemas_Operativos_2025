@@ -1,10 +1,10 @@
 /**********************************************************
-* Pontificia Universidad Javeriana			  *
-* Autor: Diego Alejandro Mendoza Cruz			  *
-* Fecha: 09/10/2025				          *
-* Materia: Sistemas Operativos				  *
-* Tema: Creación de procesos fork			  *
-* Objetivo: Identificación del proceso padre e hijo       *
+* Pontificia Universidad Javeriana			  
+* Autor: Diego Alejandro Mendoza Cruz			  
+* Fecha: 09/10/2025				          
+* Materia: Sistemas Operativos				  
+* Tema: Creación de procesos fork			  
+* Objetivo: Identificación del proceso padre e hijo       
 * *********************************************************/
 
 #include <stdio.h>    // Para printf()
