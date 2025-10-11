@@ -3,9 +3,9 @@
 * Autor: Diego Mendoza					  
 * Fecha: 09/10/2025					  
 * Tema: Creación de procesos fork			  
-*   - Identificación del proceso padre e hijo	  	  
-*   - Procesos duplicados				  
-*   - Comunicacion entre procesos con PIPE                
+*   Objetivos: - Identificación del proceso padre e hijo	  	  
+*              - Procesos duplicados				  
+*              - Comunicacion entre procesos con PIPE                
 * ********************************************************/
 
 #include <stdio.h>     // Para printf() y perror()
