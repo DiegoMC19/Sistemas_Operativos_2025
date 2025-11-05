@@ -9,7 +9,7 @@
 
 GCC = gcc
 FLAGS = -lpthread
-MODULO = 
+
 
 PROGRAMAS = labpthread01 labpthread02 labpthread03 labpthread04 labpthread05 labpthread06 labpthread07 labpthread08
 
