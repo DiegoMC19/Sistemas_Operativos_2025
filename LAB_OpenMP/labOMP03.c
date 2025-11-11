@@ -17,7 +17,7 @@
 
 int main(){
     int i; // Variable para el ciclo
-    const int N = 1000;   // Limite superior del ciclo
+    const int N = 1000;   // Número total de iteraciones
     int a = 50; // Variable para la suma
     int b = 0;  // Variable para acumular
 
