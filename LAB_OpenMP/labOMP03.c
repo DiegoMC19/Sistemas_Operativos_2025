@@ -16,10 +16,10 @@
 #include <stdlib.h>
 
 int main(){
-    int i;
-    const int N = 1000;
-    int a = 50;
-    int b = 0;
+    int i; // Variable para el ciclo
+    const int N = 1000;   // Limite superior del ciclo
+    int a = 50; // Variable para la suma
+    int b = 0;  // Variable para acumular
 
     // Paralelización del bucle for
     // private(i): cada hilo tiene su propia copia de 'i'
