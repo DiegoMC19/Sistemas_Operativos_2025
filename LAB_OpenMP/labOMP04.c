@@ -15,7 +15,7 @@
 #include <stdlib.h>
 
 int main() {
-    int i;
+    int i;     // Variable para el ciclo
     const int N = 1000;  // Número total de iteraciones
     int a = 50;          // Variable compartida
     int b = 0;           // Variable que guardará el último valor
