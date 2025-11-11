@@ -18,7 +18,7 @@
 int main(){
     int i; // Variable para el ciclo
     const int N = 1000;   // Número total de iteraciones
-    int a = 50; // Variable para la suma
+    int a = 50; // Variable compartida
     int b = 0;  // Variable para acumular
 
     // Paralelización del bucle for
