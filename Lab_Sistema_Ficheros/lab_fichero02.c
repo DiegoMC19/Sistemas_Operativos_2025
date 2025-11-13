@@ -10,11 +10,11 @@
  *
  **************************************************************************/
 
-#include <sys/types.h>  // Define tipos de datos usados en llamadas al sistema
-#include <sys/stat.h>   // Proporciona la estructura stat y funciones para obtener información de archivos
-#include <stdio.h>      // Funciones de entrada/salida estándar (printf, fgets)
-#include <string.h>     // Funciones para manipulación de cadenas (strlen, strcpy, strcat)
-#include <dirent.h>     // Funciones para trabajar con directorios (opendir, readdir, closedir)
+#include <sys/types.h>  
+#include <sys/stat.h>   
+#include <stdio.h>      
+#include <string.h>     
+#include <dirent.h>     
 
 int main() {
     DIR *d;
