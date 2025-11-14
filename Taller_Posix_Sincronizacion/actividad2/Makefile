@@ -11,8 +11,6 @@ LDFLAGS = -lpthread
 # Ejecutables
 TARGET1 = posixSincro
 TARGET2 = concurrencia
-# Makefile - Actividad 2: Sincronización con Threads
-# Sistemas Operativos - Pontificia Universidad Javeriana
 
 CC = gcc
 CFLAGS = -Wall -Wextra -pthread
