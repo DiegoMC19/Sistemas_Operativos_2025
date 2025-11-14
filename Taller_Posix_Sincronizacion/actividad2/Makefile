@@ -12,10 +12,6 @@ LDFLAGS = -lpthread
 TARGET1 = posixSincro
 TARGET2 = concurrencia
 
-CC = gcc
-CFLAGS = -Wall -Wextra -pthread
-LDFLAGS = -lpthread
-
 # Compilar ambos programas
 all: posixSincro concurrencia
 
