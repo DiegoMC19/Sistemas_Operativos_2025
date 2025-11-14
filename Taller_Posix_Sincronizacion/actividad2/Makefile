@@ -4,23 +4,19 @@
 # Autores: Juan Diego Ariza, Diego Mendoza
 # Docente: J Corredor
 # ==============================================================
-CC = gcc
+GCC = gcc
 CFLAGS = -Wall -Wextra -pthread
 LDFLAGS = -lpthread
 
-# Ejecutables
-TARGET1 = posixSincro
-TARGET2 = concurrencia
+PROGRAMAS = posixSincro concurrencia
 
-# Compilar ambos programas
-all: posixSincro concurrencia
+all: $(PROGRAMAS)
 
-posixSincro: posixSincro.c
-	$(CC) $(CFLAGS) -o posixSincro posixSincro.c $(LDFLAGS)
+posixSincro:
+	$(GCC) $(CFLAGS) $@.c -o $@ $(LDFLAGS)
 
-concurrencia: concurrencia.c
-	$(CC) $(CFLAGS) -o concurrencia concurrencia.c $(LDFLAGS)
+concurrencia:
+	$(GCC) $(CFLAGS) $@.c -o $@ $(LDFLAGS)
 
-# Limpiar archivos compilados
 clean:
-	rm -f posixSincro concurrencia *.o
+	rm -f $(PROGRAMAS) *.o
