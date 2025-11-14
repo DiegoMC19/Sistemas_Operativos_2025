@@ -1,4 +1,4 @@
-# Encabezado compartido
+// Encabezado compartido
 #ifndef SHARED_H
 #define SHARED_H
 
