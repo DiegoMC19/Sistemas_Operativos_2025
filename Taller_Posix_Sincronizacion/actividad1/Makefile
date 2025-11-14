@@ -4,19 +4,19 @@
 # Autores: Juan Diego Ariza, Diego Mendoza
 # Docente: J Corredor
 # =====================================================
-CC = gcc
+GCC = gcc
 CFLAGS = -Wall -Wextra -pthread
 LDFLAGS = -lrt -lpthread
 
-# Compilar ambos programas
-all: producer consumer
+PROGRAMAS = producer consumer
 
-producer: producer.c shared.h
-	$(CC) $(CFLAGS) -o producer producer.c $(LDFLAGS)
+all: $(PROGRAMAS)
 
-consumer: consumer.c shared.h
-	$(CC) $(CFLAGS) -o consumer consumer.c $(LDFLAGS)
+producer:
+	$(GCC) $(CFLAGS) $@.c -o $@ $(LDFLAGS)
 
-# Limpiar archivos compilados
+consumer:
+	$(GCC) $(CFLAGS) $@.c -o $@ $(LDFLAGS)
+
 clean:
-	rm -f producer consumer *.o
+	rm -f $(PROGRAMAS) *.o
