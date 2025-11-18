@@ -1,0 +1,3 @@
+Sanchez,7,6
+Ramirez,11,9
+Torres,13,5
