@@ -1,0 +1,5 @@
+Sanchez,9,6
+Ramirez,11,9
+Torres,13,5
+Flores,15,8
+Gomez,17,4
