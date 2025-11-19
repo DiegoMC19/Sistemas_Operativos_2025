@@ -1,0 +1,6 @@
+Morales,7,10
+Castro,9,7
+Ortiz,11,6
+Silva,13,8
+Mendez,15,5
+Vargas,17,6

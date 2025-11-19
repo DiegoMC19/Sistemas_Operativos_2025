@@ -1,0 +1,5 @@
+Alvarez,7,5
+Romero,8,6
+Navarro,9,4
+Cruz,10,7
+Reyes,11,5

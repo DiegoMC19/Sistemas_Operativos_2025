@@ -1,0 +1,4 @@
+Gutierrez,15,6
+Ortega,16,8
+Soto,17,5
+Dominguez,18,4

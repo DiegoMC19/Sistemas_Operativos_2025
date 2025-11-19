@@ -1,0 +1,5 @@
+Perez,8,15
+Gonzalez,10,12
+Hernandez,12,18
+Jimenez,14,10
+Ruiz,16,14

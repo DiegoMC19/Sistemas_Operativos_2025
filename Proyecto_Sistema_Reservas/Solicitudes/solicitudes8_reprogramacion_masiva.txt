@@ -1,0 +1,5 @@
+Campos,10,8
+Medina,10,7
+Arias,10,9
+Ibarra,10,6
+Vazquez,10,8

@@ -1,0 +1,4 @@
+Fuentes,7,5
+Rojas,8,6
+Contreras,9,7
+Herrera,10,5
